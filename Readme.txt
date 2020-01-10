@@ -1,7 +1,7 @@
 ### ForSure Capital
 Most talented investors to create exceptional value.
-![forsurecapital-square](https://user-images.githubusercontent.com/25851867/72159469-674fae00-338a-11ea-9012-fc6548f3942a.png)
-Thanks for downloading this template!
+
+![forsurecapital](https://user-images.githubusercontent.com/25851867/72159795-286e2800-338b-11ea-88b4-f74f55c43306.png)
 
 Template Name: ForSure Capital
 Author: Sergio E. Torres
