@@ -39,13 +39,15 @@ Supports Thumbs: true
   color: #fff;
   font-size: 32px;
   font-weight: 700;
+  font-family: "HKGrotesk Bold";
 }
 
 .layer-1-2 h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 60px;
+  font-family: "HKGrotesk Bold";
 }
 
 .layer-1-3 {

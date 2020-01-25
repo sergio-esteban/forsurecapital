@@ -8,26 +8,90 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face{
+  font-family: 'HKGrotesk Regular';
+  font-display: swap;
+	src: url('HKGrotesk-Regular.eot');
+	src: url('HKGrotesk-Regular.eot?iefix') format('eot'),
+	     url('HKGrotesk-Regular.woff') format('woff'),
+	     url('HKGrotesk-Regular.ttf') format('truetype')
+}
+
+@font-face{
+  font-family: 'HKGrotesk Bold';
+  font-display: swap;
+	src: url('HKGrotesk-Bold.eot');
+	src: url('HKGrotesk-Bold.eot?iefix') format('eot'),
+	     url('HKGrotesk-Bold.woff') format('woff'),
+	     url('hkgrotesk-bold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: "HKGrotesk Regular";
+  font-display: swap;
+  src: url("https://keeptherule.github.io/css/fonts/HKGrotesk-Regular.eot");
+  src: url("https://keeptherule.github.io/css/fonts/HKGrotesk-Regular.woff") format("woff"),
+  url("https://keeptherule.github.io/css/fonts/HKGrotesk-Regular.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "HKGrotesk Bold";
+  font-display: swap;
+  src: url("https://keeptherule.github.io/css/fonts/HKGrotesk-Bold.eot");
+  src: url("https://keeptherule.github.io/css/fonts/HKGrotesk-Black.woff") format("woff"),
+  url("https://keeptherule.github.io/css/fonts/HKGrotesk-Regular.otf") format("opentype")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #fff;
+  /* color: #444; */
+  /* color: rgb(24, 24, 24); */
+  font-family: 'HKGrotesk Regular';
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,.3);
+  text-rendering: optimizeLegibility;
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+}
 
 html {
   overflow-x: hidden;
 }
 
-/* body {
-  font-family: "Roboto", sans-serif;
-  color: #9fa1a4;
-  line-height: 1.5;
-} */
 
 /* === === === === ===  */
-body {
-  background: #fff none repeat scroll 0 0;
-  color: #444;
-  font-family: 'Open Sans', sans-serif;
-  /* font-size: 18px; */
-  text-align: left;
-  overflow-x: hidden;
-  line-height: 22px;
+
+a:hover,
+a:active,
+a:focus {
+  color: #2d14f4;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'HKGrotesk Regular';
+  padding: 0;
+  /* margin: 0 0 30px 0; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'HKGrotesk Regular';
+  /* margin: 0 0 20px 0; */
+  padding: 0;
 }
 
 ul {
@@ -123,7 +187,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: "Poppins", sans-serif;
+  font-family: "HKGrotesk Bold";
   color: #000;
 }
 
@@ -164,6 +228,130 @@ figure figcaption {
   background: linear-gradient(-45deg, #3C1A5B, #1A245B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.section-header {
+
+}
+
+.section-header p {
+  width: 100%;
+  color: #4e4e4e;
+}
+
+.section-header h3,
+.section-header h2 {
+  /* font-size: 48px; */
+  color: #282629;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: 'HKGrotesk Bold';
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  /* margin-bottom: 4rem; */
+}
+
+.section-header p {
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.section-header p:first-child {
+  font-size: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+/* Intro Info */
+@media (max-width: 767px) {
+  #intro .intro-info {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  #intro .intro-info h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* About */
+#about .about-content {
+  padding-top: 40px;
+}
+
+#about .about-content h2 {
+  color: #282629;
+  font-family: 'HKGrotesk Bold';
+  font-weight: 700;
+}
+
+#about .about-content .lni-ruler-alt {
+  /* color: #3040C4; */
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+#about .about-content i {
+  color: #3040C4;
+}
+
+@media (min-width: 768px) {
+  #about .about-content .lni-ruler-alt {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+#about .about-img,
+#intro .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#about .about-img img,
+#intro .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#about .about-img img:hover,
+#intro .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#about .about-img::before,
+#intro .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #fff; /* #ebf1fa */
+  transition: .5s;
+}
+
+#about .about-img::after,
+#intro .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color:#fff;
+  transition: .5s;
 }
 
 /* Back to top button */
@@ -245,12 +433,14 @@ figure figcaption {
 }
 
 .feature-1 h3 {
-  font-size: 20px;
+  color: #282629;
+  font-family: 'HKGrotesk Bold';
+  font-weight: 700;
 }
 
-.feature-1 p {
+/* .feature-1 p {
   color: #b1b1b1;
-}
+} */
 
 /* Step */
 
