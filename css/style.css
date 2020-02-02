@@ -42,6 +42,195 @@
   url("https://keeptherule.github.io/css/fonts/HKGrotesk-Regular.otf") format("opentype")
 } */
 
+
+@font-face {
+  font-family: 'hk_groteskbold';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bold.eot');
+  src: url('hkgrotesk-bold.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bold.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'hkgrotesk-bolditalic';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bolditalic.eot');
+  src: url('hkgrotesk-bolditalic.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bolditalic.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-bolditalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'hk_groteskitalic';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-italic.eot');
+  src: url('hkgrotesk-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-italic.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_grotesklight';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-light.eot');
+  src: url('hkgrotesk-light.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-light.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesklight_italic';
+  src: url('hkgrotesk-lightitalic.eot');
+  src: url('hkgrotesk-lightitalic.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-lightitalic.woff2') format('woff2'),
+        url('hkgrotesk-lightitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hk_grotesklight_italic';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-lightitalic.eot');
+  src: url('hkgrotesk-lightitalic.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-lightitalic.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-lightitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_groteskmedium';
+  src: url('hkgrotesk-medium.eot');
+  src: url('hkgrotesk-medium.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-medium.woff2') format('woff2'),
+        url('hkgrotesk-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_groteskmedium';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-medium.eot');
+  src: url('hkgrotesk-medium.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-medium.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'hk_groteskmedium_italic';
+  src: url('hkgrotesk-mediumitalic.eot');
+  src: url('hkgrotesk-mediumitalic.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-mediumitalic.woff2') format('woff2'),
+        url('hkgrotesk-mediumitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_groteskmedium_italic';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-mediumitalic.eot');
+  src: url('hkgrotesk-mediumitalic.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-mediumitalic.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-mediumitalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_groteskregular';
+  src: url('hkgrotesk-regular.eot');
+  src: url('hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-regular.woff2') format('woff2'),
+        url('hkgrotesk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_groteskregular';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-regular.eot');
+  src: url('hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-regular.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesksemibold';
+  src: url('hkgrotesk-semibold.eot');
+  src: url('hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-semibold.woff2') format('woff2'),
+        url('hkgrotesk-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_grotesksemibold';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibold.eot');
+  src: url('hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibold.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesksemibold_italic';
+  src: url('hkgrotesk-semibolditalic.eot');
+  src: url('hkgrotesk-semibolditalic.eot?#iefix') format('embedded-opentype'),
+        url('hkgrotesk-semibolditalic.woff2') format('woff2'),
+        url('hkgrotesk-semibolditalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'hk_grotesksemibold_italic';
+  src: url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibolditalic.eot');
+  src: url('hkgrotesk-semibolditalic.eot?#iefix') format('embedded-opentype'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibolditalic.woff2') format('woff2'),
+        url('https://sergio-esteban.github.io/forsurecapital/css/fonts/hkgrotesk-semibolditalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +243,10 @@ body {
   background: #fff;
   /* color: #444; */
   /* color: rgb(24, 24, 24); */
-  font-family: 'Karla', sans-serif;
+  /* font-family: 'Karla', sans-serif; */
+  font-family: 'hk_groteskregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0,0,0,.3);
   text-rendering: optimizeLegibility;
@@ -78,7 +270,10 @@ a:focus {
 }
 
 p {
-  font-family: 'Karla', sans-serif;
+  /* font-family: 'Karla', sans-serif; */
+  font-family: 'hk_groteskregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   padding: 0;
   text-align: left;
   /* margin: 0 0 30px 0; */
@@ -90,7 +285,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'hk_grotesksemibold_italic', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   /* margin: 0 0 20px 0; */
   padding: 0;
 }
@@ -188,7 +386,10 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'hk_grotesksemibold_italic', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   color: #000;
 }
 
@@ -247,7 +448,10 @@ figure figcaption {
   text-align: center;
   /* font-weight: 700; */
   position: relative;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'hk_grotesksemibold_italic', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   font-size: 3rem;
   /* text-transform: uppercase; */
   /* margin-bottom: 4rem; */
@@ -287,7 +491,10 @@ figure figcaption {
 
 #about .about-content h2 {
   color: #282629;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'hk_grotesksemibold_italic', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   /* font-weight: 700; */
 }
 
@@ -655,7 +862,10 @@ figure figcaption {
 
 .feature-1 h3 {
   color: #282629;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'hk_grotesksemibold_italic', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
   /* font-weight: 700; */
 }
 
